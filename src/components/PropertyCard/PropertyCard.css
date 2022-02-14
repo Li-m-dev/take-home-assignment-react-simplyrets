@@ -1,0 +1,39 @@
+.card {
+  width: 315px;
+  padding: 18px;
+  overflow: hidden;
+}
+.property_img {
+  height: 280px;
+}
+.img_container {
+  position: relative;
+}
+.heart-icon {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  height: 36px;
+  width: 39px;
+}
+
+.info_area {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info_price {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.info_address {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.info_date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #979797;
+}

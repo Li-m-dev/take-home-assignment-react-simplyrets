@@ -1,0 +1,13 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 63px;
+  background: #f4f4f4;
+  padding: 18px;
+  z-index: 1;
+}
+.header_text {
+  font-size: 14px;
+  color: #2d2d2d;
+  font-weight: 600;
+}

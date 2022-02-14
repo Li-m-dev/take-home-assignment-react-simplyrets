@@ -1,11 +1,11 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
+import React from 'react';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const heading = screen.getByRole(
-    'heading',
-    /Side React Take-home Assignment/i,
-  );
-  expect(heading).toBeInTheDocument();
+it('should render', () => {
+  // Act
+  const { container } = render(<App />);
+
+  // Assert
+  expect(container).toMatchSnapshot();
 });

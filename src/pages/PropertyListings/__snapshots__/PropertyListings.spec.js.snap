@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyListings tests should render property lists 1`] = `
+<div>
+  <div
+    class="list_container"
+  />
+</div>
+`;

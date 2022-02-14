@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyCard tests should call toggleFav on click 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="img_container"
+    >
+      <img
+        alt="house pic"
+        class="property_img"
+        src="t"
+      />
+      <img
+        alt="favorite icon"
+        class="heart-icon"
+        data-testid="heartIcon"
+        src="heart-fill.svg"
+      />
+    </div>
+    <div
+      class="info"
+    >
+      <div
+        class="info_area"
+      >
+        4
+         BR | 
+        3.5
+         Bath | 
+        2210
+         Sq Ft
+      </div>
+      <div
+        class="info_price"
+      >
+        $300,000
+      </div>
+      <div
+        class="info_address"
+      >
+        111
+         
+        Santa Fe
+        , 
+        Houston
+        , 
+        TX
+      </div>
+      <div
+        class="info_date"
+      >
+        Listed: 
+        10/25/1994
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PropertyCard tests should render property card 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <div
+      class="img_container"
+    >
+      <img
+        alt="house pic"
+        class="property_img"
+        src="t"
+      />
+      <img
+        alt="favorite icon"
+        class="heart-icon"
+        data-testid="heartIcon"
+        src="heart-stroke.svg"
+      />
+    </div>
+    <div
+      class="info"
+    >
+      <div
+        class="info_area"
+      >
+        4
+         BR | 
+        3.5
+         Bath | 
+        2210
+         Sq Ft
+      </div>
+      <div
+        class="info_price"
+      >
+        $300,000
+      </div>
+      <div
+        class="info_address"
+      >
+        111
+         
+        Santa Fe
+        , 
+        Houston
+        , 
+        TX
+      </div>
+      <div
+        class="info_date"
+      >
+        Listed: 
+        10/25/1994
+      </div>
+    </div>
+  </div>
+</div>
+`;

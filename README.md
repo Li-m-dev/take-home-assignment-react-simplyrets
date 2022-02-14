@@ -7,3 +7,9 @@
 # Code and Design Decisions
 
 <!-- Please document your code & design decisions here. -->
+
+The following parts need to revisit:
+
+- Full test coverage
+- loading state
+- styling details
