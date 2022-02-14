@@ -3,7 +3,6 @@ const onToggleFavMock = jest.fn();
 import React from 'react';
 import { fireEvent, render } from '@testing-library/react';
 import PropertyCard from './PropertyCard';
-import * as PropertyCardRoot from './PropertyCard';
 
 const mockProps = {
   address: {
@@ -33,7 +32,6 @@ describe('PropertyCard tests', () => {
   it('should call toggleFav on click', () => {
     // Arrange
 
-    // const temp = jest.spyOn(PropertyCardRoot, 'toggleFav');
     // Act
     const { container, getByTestId } = render(<PropertyCard {...mockProps} />);
     const heartIcon = getByTestId('heartIcon');
@@ -41,7 +39,6 @@ describe('PropertyCard tests', () => {
 
     // Assert
     expect(container).toMatchSnapshot();
-    // expect(temp).toHaveBeenCalledTimes(1);
     expect(onToggleFavMock).toHaveBeenCalledTimes(1);
   });
 });
